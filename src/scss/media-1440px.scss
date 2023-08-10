@@ -1,0 +1,174 @@
+@media screen and (min-width: 1440px) {
+  .header-list__item:nth-child(1),
+  .header-list__item:nth-child(2),
+  .header-list__item:nth-child(3),
+  .header-list__item:nth-child(4),
+  .header-list__item:nth-child(5),
+  .header-list__item:nth-child(6)::before {
+    display: none;
+  }
+
+  .main {
+    margin: 0px;
+  }
+
+  .side-navigation__main-content {
+    margin-top: 112px;
+  }
+
+  .side-navigation__main {
+    margin-top: 112px;
+  }
+
+  .side-navigation__wrapper {
+    box-shadow: none;
+    display: block;
+    position: sticky;
+    transform: translateX(0);
+    width: 320px;
+  }
+
+  .aside {
+    position: fixed;
+    z-index: 10;
+  }
+
+  .box {
+    position: sticky;
+    display: block;
+    left: 320px;
+    max-width: 1120px;
+  }
+
+  .burger__button {
+    display: none;
+  }
+
+  .content-res__1120 {
+    display: inline;
+  }
+
+  .header-list {
+    padding-top: 30px;
+    justify-content: right;
+    max-width: 1440px;
+  }
+
+  .header-list__item_text {
+    display: inherit;
+    font-family: 'TT Lakes Medium';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+  }
+
+  .header-list__label {
+    display: flex;
+    flex-direction: row-reverse;
+    cursor: pointer;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+
+  .header-list__label > span {
+    margin: 10px;
+  }
+
+  .header-list__label:hover > span {
+    color: $btn-hover;
+    transition: color 0.3s;
+  }
+
+  .header {
+    height: 0;
+    border: none;
+  }
+
+  .sign {
+    width: 530px;
+    height: 307px;
+    margin-bottom: 0;
+  }
+
+  .nav-list {
+    flex-wrap: wrap;
+  }
+
+  .nav-container {
+    margin-left: 32px;
+    padding-top: 8px;
+  }
+
+  .content-wrapper {
+    margin-left: 18px;
+    margin-top: 16px;
+  }
+
+  .content {
+    margin-top: 0;
+    font-size: 14px;
+  }
+
+  .content-header {
+    margin-left: 32px;
+  }
+
+  .content-header::before {
+    content: '';
+    position: absolute;
+    left: -32px;
+    top: 0px;
+    height: 40px;
+    width: 4px;
+    background-color: $subtitle-decorate-color;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+
+  .header {
+    position: relative;
+  }
+
+  .brand-types__item {
+    width: 20%;
+  }
+
+  .device-types__item {
+    width: 20%;
+  }
+
+  .content-description__spoiler {
+    height: 160px;
+    overflow: hidden;
+  }
+
+  .offer {
+    padding-bottom: 50px;
+  }
+
+  .offer__text {
+    margin-left: 32px;
+  }
+
+  .offer__link {
+    margin-left: 32px;
+  }
+
+  .footer__list {
+    margin: 0 32px;
+  }
+
+  .footer__list-item--3 {
+    text-align: right;
+    width: 330px;
+    height: 48px;
+  }
+
+  .page-wrapper {
+    display: flex;
+  }
+
+  .brands__item {
+    width: 240px;
+  }
+}

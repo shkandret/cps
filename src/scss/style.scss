@@ -1,0 +1,20 @@
+$btn-hover: #ff3e79;
+$main-bg-color: #f8f8f8;
+$main-theme-color: #ff3e79;
+$nothing-bg-color: #fff;
+$main-font-color: #1b1c21;
+$block-border-color: #d9fff5;
+$subtitle-decorate-color: #41f6d7;
+$active-border-color: #b8ffec;
+$subliight-font-color: #7e7e82;
+$separate-bg-color: #eaeaea;
+$transparent-elem-color: transparent;
+$slider-dots-bg-color: #dddddd;
+$slider-dots-active-color: #b5b6bc;
+$hoverelement-bg-color: #ffe0e9;
+
+@import './none-style.scss';
+@import './index.scss';
+@import './media-768px.scss';
+@import './media-1440px.scss';
+@import '~swiper/swiper-bundle.min.css';
